@@ -1,0 +1,61 @@
+{
+  "name": "BlackGaspers - AI Streaming Assistant",
+  "short_name": "BlackGaspers",
+  "description": "Advanced AI Streaming Assistant with real-time chat, image generation, video creation, and live streaming tools",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#1F2937",
+  "theme_color": "#8B5CF6",
+  "orientation": "portrait-primary",
+  "scope": "/",
+  "lang": "es",
+  "icons": [
+    {
+      "src": "/ic_launcher.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/ic_launcher.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "categories": ["productivity", "utilities", "entertainment", "social", "games"],
+  "screenshots": [
+    {
+      "src": "/screenshot-wide.png",
+      "sizes": "1280x720",
+      "type": "image/png",
+      "form_factor": "wide",
+      "label": "BlackGaspers AI Chat Interface"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Chat IA",
+      "short_name": "Chat",
+      "description": "Abrir chat con IA",
+      "url": "/?tab=chat",
+      "icons": [{ "src": "/ic_launcher.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Chat en Vivo",
+      "short_name": "Live",
+      "description": "Abrir chat en vivo",
+      "url": "/?tab=live",
+      "icons": [{ "src": "/ic_launcher.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Generar Imagen",
+      "short_name": "Imagen",
+      "description": "Crear imágenes con IA",
+      "url": "/?tab=images",
+      "icons": [{ "src": "/ic_launcher.png", "sizes": "192x192" }]
+    }
+  ],
+  "related_applications": [],
+  "prefer_related_applications": false
+}
